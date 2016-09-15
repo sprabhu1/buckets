@@ -34,5 +34,6 @@ module.exports =
         .send
           username: 'test+user@buckets.io'
           password: 'testing123'
+          
         .end (err, res) ->
           done err, user
